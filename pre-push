@@ -1,0 +1,13 @@
+#!/bin/sh
+# Copyright (c) 2021 Sebastian LaVine <mail@smlavine.com>
+# This file is licensed under the MIT license. See LICENSE at
+# <https://git.sr.ht/~smlavine/pre-push> for more details.
+# A simple git pre-push hook to prevent possibly bad code from being pushed
+
+# Don't allow a push to go through if it is between midnight and 07:00am.
+if [ "$(date +%H)" -lt 07 ]; then
+	printf "%s\n%s\n" \
+		"Woah there! It's a little late to be writing good code," \
+		"don't you think? Why don't you try this again in the morning."
+	exit 1
+fi
