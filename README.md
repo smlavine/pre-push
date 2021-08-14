@@ -38,4 +38,4 @@ To browse the source code repository, see
 
 To discuss pre-push, suggest features, submit patches, or report bugs,
 use the public mailing list at
-<<https://lists.sr.ht/~smlavine/pre-push>>.
+<<https://lists.sr.ht/~smlavine/pre-push-devel>>.
