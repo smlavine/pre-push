@@ -3,9 +3,8 @@ A simple git pre-push hook to prevent possibly bad code from being pushed
 # Installation
 ```
 cd mygitproject/
-git clone https://git.sr.ht/~smlavine/pre-push
-cp pre-push/pre-push .git/hooks/
-rm -r pre-push
+curl --create-dirs -o .git/hooks/pre-push https://git.sr.ht/~smlavine/pre-push/blob/master/pre-push
+chmod +x .git/hooks/pre-push
 ```
 
 # Copyright
