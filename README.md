@@ -1,5 +1,4 @@
-A simple git pre-push hook to prevent possibly bad code from being
-pushed
+A simple git pre-push hook to prevent possibly bad code from being pushed
 
 # Installation
 ```
