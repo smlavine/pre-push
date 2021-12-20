@@ -8,7 +8,7 @@ chmod +x .git/hooks/pre-push
 ```
 
 # Copyright
-Copyright (c) 2021 Sebastian LaVine <<mail@smlavine.com>>
+Copyright (c) 2021 Sebastian LaVine <mail@smlavine.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,11 +30,11 @@ SOFTWARE.
 
 # Contributing
 
-To follow the project, see <<https://sr.ht/~smlavine/pre-push>>
+To follow the project, see <https://sr.ht/~smlavine/pre-push>
 
 To browse the source code repository, see
-<<https://git.sr.ht/~smlavine/pre-push>>.
+<https://git.sr.ht/~smlavine/pre-push>.
 
 To discuss pre-push, suggest features, submit patches, or report bugs,
 use the public mailing list at
-<<https://lists.sr.ht/~smlavine/pre-push-devel>>.
+<https://lists.sr.ht/~smlavine/pre-push-devel>.
