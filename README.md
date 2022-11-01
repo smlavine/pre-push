@@ -2,6 +2,8 @@
 
 A git pre-push hook to stop code from being pushed late at night.
 
+I don't really use it that much.
+
 # Installation
 
 ```
